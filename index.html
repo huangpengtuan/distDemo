@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>zk_vue</title><script type=text/javascript>/* 因为我们后面用的是rem布局，所以这里做下处理，根据不用设备分辨率更改跟字体大小。 rem相关布局[请参考](http://www.jianshu.com/p/65f80d4b44bb)*/
+	    (function(win,doc){
+	          change();
+	          function change(){
+	              doc.documentElement.style.fontSize = doc.documentElement.clientWidth *20/640+'px';
+	          }
+	          win.addEventListener('resize',change,false);
+	          win.addEventListener('orientationchange',change,false);  /* 这个是移动端设备横屏、竖屏转换时触发的事件处理函数 */
+	      })(window,document);</script><link href=./static/css/app.55745180120401a03407446741a57723.css rel=stylesheet></head><body><div id=app><router-view></router-view></div><div class=Bottom_nav><div class=container><div class=Bottom_nav_List>友情链接</div><div class=Bottom_nav_List>花椒撒谎&nbsp;&nbsp;&nbsp;&nbsp;紫康科技&nbsp;&nbsp;&nbsp;&nbsp;毕优科技&nbsp;&nbsp;&nbsp;&nbsp;车多网络科技</div><div class=Bottom_nav_List><br>本站声明</div><div class=Bottom_nav_List>本站所有资源搜集于互联网，所提供的下载链接也是站外链接，网站本身不存储任何相关资源文件，如资源下载链接侵犯到版权方，请联系邮箱：67378@qq.com,站长何事后悔在第一时间移除，谢谢~</div></div></div><script type=text/javascript src=./static/js/manifest.6a57ead7c194c21f47a4.js></script><script type=text/javascript src=./static/js/vendor.ff3dd2a5457f3b467481.js></script><script type=text/javascript src=./static/js/app.29dc7344a3b00130b311.js></script></body></html>
